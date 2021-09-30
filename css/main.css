@@ -82,7 +82,7 @@
 
   /* Navbar */
   #navbar {
-    background-color: var(--color-dark-pink);
+    background-color: var(--color-blue);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -112,7 +112,7 @@
   }
 
   .navbar__menu__item:hover {
-    background-color: var(--color-dark-pink);
+    background-color: #0b4e7a;
     border-radius: var(--size-border-radius);
   }
 
@@ -127,7 +127,7 @@
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    border: 2px solid var(--color-white);
+    border: 2px solid var(--color-blue);
   }
 
   .home__title,
@@ -136,7 +136,7 @@
   }
 
   .home__contact {
-    color: var(--color-black);
+    color: #216694;
     font-size: var(--font-regular);
     font-weight: var(--weight-bold);
     margin: 24px;
@@ -177,7 +177,6 @@
   }
 
   .major__icon:hover i {
-    color: var(--color-pink);
     transform: rotate(-30deg) scale(1.1);
   }
 
@@ -214,7 +213,7 @@
 
   /* Skills */
   #skills {
-    background-color: var(--color-yellow);
+    background-color: #bcdfff;
   }
 
   .skillset {
@@ -251,7 +250,7 @@
 
   .skill__value {
     height: 3px;
-    background-color: var(--color-orange);
+    background-color: #5c9fcc;
   }
 
   .skillset__right {
