@@ -91,6 +91,7 @@ p {
   padding: 16px;
   background-color: transparent;
   transition: all var(--animation-duration) ease-in-out;
+  z-index: 1;
 }
 
 #navbar.navbar--dark {
@@ -114,13 +115,10 @@ p {
   cursor: pointer;
 }
 
-.navbar__menu__item.active{
-  border: 1px solid var(--color-white);
-  border-radius: var(--size-border-radius);
-}
-
 .navbar__menu__item:hover {
   background-color: #0b4e7a;
+  border-radius: var(--size-border-radius);
+  border: 1px solid var(--color-white);
   border-radius: var(--size-border-radius);
 }
 
@@ -135,7 +133,7 @@ p {
 
 /* Home */
 #home {
-  background: url(../img/html\ 배경.png) center/cover no-repeat;
+  background: url(../img/배경.png) center/cover no-repeat;
   padding: 40px;
   padding-top: 120px;
   text-align: center;
@@ -196,6 +194,7 @@ p {
 }
 
 .major__icon:hover i {
+  color: var(--color-blue);
   transform: rotate(-30deg) scale(1.1);
 }
 
@@ -220,6 +219,11 @@ p {
 .job__description {
   margin: 0 16px;
   text-align: left;
+}
+
+.job__name,
+.job__period {
+  color: var(--color-light-grey);
 }
 
 .job__name {
@@ -298,9 +302,9 @@ p {
   padding: 8px 48px;
 }
 
-.category__btn.selected,
+.category__btn.active,
 .category__btn:hover {
-  background-color: #bcdfff;
+  background-color: var(--color-pink);
   color: var(--color-white);
 }
 
@@ -345,6 +349,7 @@ p {
 .project__img {
   max-width: 100%;
   max-height: 100%;
+  align-self: center;
 }
 
 .project__description {
@@ -364,7 +369,7 @@ p {
 
 .project:hover .project__description {
   opacity: 0.7;
-  transform: translateY(0);
+  transform: translateY(0px);
 }
 
 .project__description h3 {
