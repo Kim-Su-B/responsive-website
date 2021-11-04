@@ -111,12 +111,12 @@ p {
 .navbar__menu__item {
   padding: 8px 12px;
   margin: 0 4px;
-  color: var(--color-white);
+  color: var(--color-dark-grey);
   cursor: pointer;
 }
 
 .navbar__menu__item:hover {
-  background-color: #0b4e7a;
+  background-color: var(--color-blue);
   border-radius: var(--size-border-radius);
   border: 1px solid var(--color-white);
   border-radius: var(--size-border-radius);
