@@ -32,3 +32,21 @@ function scrollIntoView(selector) {
     const scrollTo = document.querySelector(selector);
     scrollTo.scrollIntoView({behavior : "smooth"});
 }
+
+//home 투명도 조절
+const home = document.querySelector("home__container");
+const homeHeight = home.getBoundingClientRect().height;
+document.addEventListener("scroll", () => {
+    home.getElementsByClassName.opacity = 1 - window.scrollY / homeHeight;
+});
+
+//햄버거 메뉴 클릭할 때
+const navbarToggleBtn = document.querySelector(".navbar__toggle-btn");
+navbarToggleBtn.addEventListener("click", () => {
+    navbarMenu.classList.toggle("open");
+});
+
+function scrollIntoView(selector) {
+    const scrollTo = document.querySelector(selector);
+    scrollTo.scrollIntoView({ behavior : "smooth"});
+}

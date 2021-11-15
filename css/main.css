@@ -111,14 +111,12 @@ p {
 .navbar__menu__item {
   padding: 8px 12px;
   margin: 0 4px;
-  color: var(--color-white);
+  color: var(--color-black);
   cursor: pointer;
 }
 
 .navbar__menu__item:hover {
-  background-color: #0b4e7a;
-  border-radius: var(--size-border-radius);
-  border: 1px solid var(--color-white);
+  background-color: #ffffff;
   border-radius: var(--size-border-radius);
 }
 
@@ -304,7 +302,7 @@ p {
 
 .category__btn.active,
 .category__btn:hover {
-  background-color: var(--color-pink);
+  background-color: #bcdfff;
   color: var(--color-white);
 }
 
