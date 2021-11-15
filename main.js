@@ -34,7 +34,7 @@ function scrollIntoView(selector) {
 }
 
 //home 투명도 조절
-const home = document.querySelector("home__container");
+const home = document.querySelector(".home__container");
 const homeHeight = home.getBoundingClientRect().height;
 document.addEventListener("scroll", () => {
     home.getElementsByClassName.opacity = 1 - window.scrollY / homeHeight;
