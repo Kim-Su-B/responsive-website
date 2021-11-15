@@ -54,5 +54,5 @@ function scrollIntoView(selector) {
 //arrow-up
 const arrowUp = document.querySelector(".arrow-up");
 arrowUp.addEventListener("click", () => {
-    document.querySelector("#home").scrollIntoView({behavior : "smooth"});
-});
+    document.querySelector("#home").scrollIntoView({ behavior : "smooth"});
+}); 

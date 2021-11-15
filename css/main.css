@@ -572,5 +572,8 @@ p {
     bottom: 16px;
     border-radius: 50%;
     opacity: 0;
+    text-decoration: none;
+    pointer-events: none;
+    transition: all .4s;
   }
 }
