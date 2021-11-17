@@ -537,4 +537,9 @@ p {
     bottom: 16px;
     transform: perspective();
   }
+
+  .category__btn {
+    width: 100% ;
+    margin: 4px 0;
+  }
 }
